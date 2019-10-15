@@ -1,0 +1,2 @@
+BigQuery error in query operation: The query is too large. The maximum standard SQL query length is 1024.00K characters, including comments and white space characters.
+BigQuery error in query operation: Error processing job: Definition body too long: 318033; max allowed: 32768 bytes

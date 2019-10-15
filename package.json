@@ -1,0 +1,37 @@
+{
+  "name": "bigquery-public-udf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --timeout=30000 ./{,!(node_modules)/**/}test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davetemplin/bigquery-public-udf.git"
+  },
+  "keywords": [],
+  "author": "Dave Templin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davetemplin/bigquery-public-udf/issues"
+  },
+  "homepage": "https://github.com/davetemplin/bigquery-public-udf#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^4.2.1",
+    "chai": "^4.2.0",
+    "diff-match-patch": "^1.0.4",
+    "double-metaphone": "^1.0.4",
+    "js-levenshtein": "^1.1.6",
+    "mocha": "^6.2.0",
+    "normalize-url": "^4.5.0",
+    "rollup": "^1.22.0",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^5.1.2",
+    "ua-parser-js": "^0.7.20"
+  }
+}

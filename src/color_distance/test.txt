@@ -1,0 +1,1 @@
+SELECT `bigquery-lib.udf.color_distance`(['#fdfdfd', '#191a19'], ['#fdfdfd', '#716752'])
