@@ -1,4 +1,4 @@
-SELECT url, `bigquery-global.udf.parse_url`(url) result
+SELECT url, `bigquery-lib.udf.parse_url`(url) result
 FROM UNNEST([
     "http://foo.bar",
     "http://foo.bar/",

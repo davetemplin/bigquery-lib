@@ -1,5 +1,5 @@
 SELECT *, IF(expected=actual, "PASS", "FAIL") result FROM (
-    SELECT url, expected, `bigquery-global.udf.validate_url`(url) actual
+    SELECT url, expected, `bigquery-lib.udf.validate_url`(url) actual
     FROM UNNEST([
         STRUCT("http://foo.bar" AS url, TRUE AS expected),
         STRUCT("http://foo.bar/", TRUE),
