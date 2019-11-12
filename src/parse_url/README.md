@@ -1,27 +1,10 @@
 # parse_url
-Useful when you need to display, store, deduplicate, sort, compare, etc, URLs.
+Breaks a URL down into it's components.
 
 
-## ``` `bigquery-lib.udf.normalize_url`(url, options) ```
+## ``` `bigquery-lib.udf.parse_url`(url, options) ```
 
 ## Example
 ```
-SELECT `bigquery-lib.udf.normalize_url`("example.com", NULL);
+SELECT `bigquery-lib.udf.parse_url`("https://www.example.com/index.html");
 ```
-
-
-## Function Specification
-
-``` `bigquery-lib.udf.normalize_url`(url, options) ```
-
-### Parameters
-
-Parameter | Type    | Description
---------- | ------- | ---
-url       | STRING  | URL to normalize.
-
-### Returns
-Returns a string containing the normalized url.
-
-
-## Reference
